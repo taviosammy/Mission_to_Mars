@@ -66,6 +66,7 @@ def featured_image(browser):
     # Find and click the full image button
     full_image_elem = browser.find_by_tag('button')[1]
     full_image_elem.click()
+    #browser.find_by_css('a.quickview').click()
 
     # Parse the resulting html with soup
     html = browser.html
@@ -74,8 +75,9 @@ def featured_image(browser):
     # Add try/except for error handling
     try:
         # Find the relative image url
-        img_url_rel = img_soup.find('img', class_='fancybox-image').get('src')
-
+         img_url_rel = img_soup.find('img', class_='fancybox-image').get('src')
+        #featured = browser.find_by_css('img.fancybox-image')
+        #img_url_rel = featured('src')
     except AttributeError:
         return None
 
