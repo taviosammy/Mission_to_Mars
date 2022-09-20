@@ -1,5 +1,9 @@
 # Mission_to_Mars
 
+## Summary 
+  This aim of this project was to scrape information from tha NASA mars webpage and present that info on a personalized webpage.
+  Below are the process and results of achieving this set goal.
+  
 ## Scraped information, tables and images from NASA website.
 
 ![image](https://user-images.githubusercontent.com/99847046/173038558-d53f1857-5091-48bf-91c7-f070d8544024.png)
